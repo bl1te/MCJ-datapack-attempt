@@ -1,0 +1,1 @@
+execute unless entity @e[type=zombie,x=0,y=1,z=-15,dx=0,dy=0,dz=0] run execute as @p run say Проходи, не стесняйся.

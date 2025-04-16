@@ -1,0 +1,1 @@
+execute unless entity @e[type=zombie,x=-5,y=1,z=-51,dx=0,dy=0,dz=0] run execute unless entity @e[type=zombie,x=0,y=1,z=-50,dx=0,dy=0,dz=0] run execute unless entity @e[type=zombie,x=5,y=1,z=-51,dx=0,dy=0,dz=0] run function training:level3/proceed
