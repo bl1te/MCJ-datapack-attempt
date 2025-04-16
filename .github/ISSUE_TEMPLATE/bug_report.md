@@ -14,11 +14,13 @@ A clear and concise description of what the bug is.
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Interact with '....'
-2.1. Additional steps, if any
-3. See result
+3. Additional steps, if any
 
-**Expected behavior**
+**Expected result**
 A clear and concise description of what you expected to happen.
+
+**Actual result**
+A clear and concise description of what you actually happened.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
