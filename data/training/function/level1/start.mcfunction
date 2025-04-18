@@ -1,5 +1,5 @@
 # This function is run at the very beggining (0 0 0) after pressing the button
-effect give @p blindness 4
+effect give @p blindness 4 1 true
 time set midnight
 summon zombie 0 1 -15
 tp @p 0 1 -5
