@@ -5,13 +5,15 @@ So I decided to share it with the public.
 
 A lot of code may be unoptimized, this is the second reason of publishing the pack.
 
-Currently there is only a demo version. **I hope people will see it, contribute (with explanations), and help me improve my skills.**
+Currently there is only a demo version. I hope people will see it, contribute (with explanations), and help me improve my skills.
+
+:pushpin: **And I mean it. I'd like to hear any feedback on any aspect of this datapack: source code architecture/structure, entities naming, commands optimization, etc. Anything.**
 
 Feel free to use any of the contents at your discretion.
 
 ## Installation
 
-The datapack is intended to be used on Java Edition 1.21.5.
+:warning: The datapack is intended to be used on Java Edition 1.21.5.
 
 1. Download the _Adventure.7z_ from the [Releases](https://github.com/bl1te/MCJ-datapack-attempt/releases) page.
 2. Unpack the contents into your _saves_ folder. It should look like this:
