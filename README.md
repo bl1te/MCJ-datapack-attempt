@@ -13,7 +13,7 @@ Feel free to use any of the contents at your discretion.
 
 ## Installation
 
-:warning: The datapack is intended to be used on Java Edition 1.21.5.
+:warning: The datapack is intended to be used on Java Edition 1.21.5. Singleplayer only[^1].
 
 1. Download the _Adventure.7z_ from the [Releases](https://github.com/bl1te/MCJ-datapack-attempt/releases) page.
 2. Unpack the contents into your _saves_ folder. It should look like this:
@@ -23,6 +23,7 @@ Feel free to use any of the contents at your discretion.
 
 Custom installation is preferred to minimize the probability of your mods interferring the pack.
 
-But it should work either way since I'm not using any _'world-affecting / -changing'_ mods during the development[^1].
+But it should work either way since I'm not using any _'world-affecting / -changing'_ mods during the development[^2].
 
-[^1]: WorldEdit does not fall into this, right? It is just a **tool** for changes, not a changer by itself.
+[^1]: While I like messing with the code for fun, I'm not going to break my head for multiplayer adjustments.
+[^2]: WorldEdit does not fall into this, right? It is just a **tool** for changes, not a changer by itself.
