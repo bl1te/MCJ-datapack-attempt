@@ -1,1 +1,1 @@
-execute as @p run say Когда будешь готов, нажимай следующую кнопку.
+tellraw @p [{"text":"Narrator: ","color":"gold"},{"text": "Once done, press the button."}]
