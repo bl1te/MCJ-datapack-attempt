@@ -1,4 +1,4 @@
-summon zombie -5 1 -51
-summon zombie 0 1 -50
-summon zombie 5 1 -51
-tellraw @p [{"text":"Narrator: ","color":"gold"},{"text": "Once they are done, press the button behind."}]
+summon zombie -5 1 -51 {IsBaby:0b}
+summon zombie 0 1 -50 {IsBaby:0b}
+summon zombie 5 1 -51 {IsBaby:0b}
+tellraw @p [{"text":"Narrator: ","color":"gold"},{"text": "Once they are done, press the button behind.","color":"white"}]
