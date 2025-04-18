@@ -5,7 +5,7 @@ time set midnight
 summon zombie 0 1 -15 {IsBaby:0b}
 tp @p 0 1 -5
 playsound entity.enderman.teleport player @p ~ ~ ~ 1 1 1
-tellraw @p [{"text":"Narrator: ","color":"gold"},{"text":"Warming up. Show off your melee skills..","color":"white"}]
+tellraw @p [{"text":"Narrator: ","color":"gold"},{"text":"Warming up. Show off your melee skills.","color":"white"}]
 
 # Delayed second message
 schedule function training:level1/start2 3s
