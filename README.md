@@ -18,11 +18,9 @@ Feel free to use any of the contents at your discretion.
 1. Download the _Adventure.7z_ from the [Releases](https://github.com/bl1te/MCJ-datapack-attempt/releases) page.
 2. Unpack the contents into your _saves_ folder. It should look like this:
 
-- `.../.minecraft/saves/Adventure` - if it is your main installation path
-- `.../.minecraft/versions/{your_name}/saves/Adventure` - if you use custom installation[^2]
+- `.../{MC directory}/saves/Adventure`
 
-3. Load the 'Adventure' world.
-4. Run `/datapack list enabled` command to ensure that it is set correctly.
+3. Start the game and load the 'Adventure' world.
+4. Run `/datapack list enabled` command to ensure that it is set properly.
 
-[^1]: While I like messing with the code for fun, I'm not going to break my head for multiplayer adjustments.
-[^2]: Custom installation is preferred to minimize the probability of your mods interferring the pack. But it should work either way since I'm not using any _'world-affecting / -changing'_ mods during the development... _WorldEdit does not fall into this, right? It is just a **tool** for changes, not a changer by itself._
+[^1]: While I enjoy messing with the code for fun, I'm not going to bother with multiplayer adjustments.
