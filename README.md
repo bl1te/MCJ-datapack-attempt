@@ -21,7 +21,7 @@ Feel free to use any of the contents at your discretion.
 - `.../.minecraft/saves/Adventure` - if it is your main installation path
 - `.../.minecraft/versions/{your_name}/saves/Adventure` - if you use custom installation
 
-&nbsp;&nbsp;&nbsp;&nbsp;Custom installation is preferred to minimize the probability of your mods interferring the pack.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Custom installation is preferred to minimize the probability of your mods interferring the pack.
 
 3. Load the 'Adventure' world.
 4. Run `/datapack list enabled` command to ensure that it is set correctly.
