@@ -24,7 +24,8 @@ While I enjoy messing with the code for fun, I'm not going to bother with multip
 And no backporting, ever. This is my paradigm:
 
 > If you are not utilizing a higher stable version, you are wasting opportunities.
-> If the higher stable version lacks the features which are present in lower version, find a workaround to implement these features.
+>
+> If the higher stable version lacks the features which are present in lower version, find a workaround to achieve these features.
 
 </details>
 
