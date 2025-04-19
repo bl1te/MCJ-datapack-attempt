@@ -44,6 +44,6 @@ And no backporting, ever. This is my paradigm:
 ## Restart the game
 
 1. Quit to Title.
-2. Close every other process which might be using save folders.
+2. Close every other process which might be using the _'Adventure'_ or _'Adventure.bak'_ folders or their contents.
 3. Run _'Adventure-reset.bat'_ file.
 4. Navigate back to Singleplayer and load the _'Adventure'_ world. **_Do not touch the 'Adventure.bak' world!_**
