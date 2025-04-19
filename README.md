@@ -29,10 +29,21 @@ And no backporting, ever. This is my paradigm:
 
 </details>
 
-1. Download the _Adventure.7z_ from the [Releases](https://github.com/bl1te/MCJ-datapack-attempt/releases) page.
-2. Unpack the contents into your _saves_ folder. It should look like this:
+1. Download the _'MCJ.7z'_ archive from the [Releases](https://github.com/bl1te/MCJ-datapack-attempt/releases) page.
+2. Unpack the contents into your _'saves'_ folder. It should look like this:
 
 - `.../%your_mc_directory%/saves/Adventure`
 
-3. Start the game and load the 'Adventure' world.
+- `.../%your_mc_directory%/saves/Adventure.bak`
+
+- `.../%your_mc_directory%/saves/Adventure-reset.bat`
+
+3. Start the game and load the _'Adventure'_ world. **_Do not touch the 'Adventure.bak' world!_**
 4. Run `/datapack list enabled` command to ensure that it is set properly.
+
+## Restart the game
+
+1. Quit to Title.
+2. Close every other process which might be using save folders.
+3. Run _'Adventure-reset.bat'_ file.
+4. Navigate back to Singleplayer and load the _'Adventure'_ world. **_Do not touch the 'Adventure.bak' world!_**
