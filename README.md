@@ -1,4 +1,6 @@
-## Hello. This is my first ever datapack
+## Introduction
+
+**Hello. This is my first ever datapack.**
 
 At first I just wanted to create an exciting adventure map for my girlfriend but then it became even more exciting for me to actually create all of this.
 So I decided to share it with the public.
