@@ -19,14 +19,10 @@ Feel free to use any of the contents at your discretion.
 2. Unpack the contents into your _saves_ folder. It should look like this:
 
 - `.../.minecraft/saves/Adventure` - if it is your main installation path
-- `.../.minecraft/versions/{your_name}/saves/Adventure` - if you use custom installation
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Custom installation is preferred to minimize the probability of your mods interferring the pack.
+- `.../.minecraft/versions/{your_name}/saves/Adventure` - if you use custom installation[^2]
 
 3. Load the 'Adventure' world.
 4. Run `/datapack list enabled` command to ensure that it is set correctly.
 
-But it should work either way since I'm not using any _'world-affecting / -changing'_ mods during the development[^2].
-
 [^1]: While I like messing with the code for fun, I'm not going to break my head for multiplayer adjustments.
-[^2]: WorldEdit does not fall into this, right? It is just a **tool** for changes, not a changer by itself.
+[^2]: Custom installation is preferred to minimize the probability of your mods interferring the pack. But it should work either way since I'm not using any _'world-affecting / -changing'_ mods during the development... _WorldEdit does not fall into this, right? It is just a **tool** for changes, not a changer by itself._
