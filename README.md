@@ -23,6 +23,9 @@ Feel free to use any of the contents at your discretion.
 
 Custom installation is preferred to minimize the probability of your mods interferring the pack.
 
+3. Load the 'Adventure' world.
+4. Run `/datapack list enabled` command to ensure that it is set correctly.
+
 But it should work either way since I'm not using any _'world-affecting / -changing'_ mods during the development[^2].
 
 [^1]: While I like messing with the code for fun, I'm not going to break my head for multiplayer adjustments.
