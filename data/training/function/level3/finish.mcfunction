@@ -8,6 +8,6 @@ effect give @s saturation 1 10 true
 stopsound @s music
 playsound music.game music @s ~ ~ ~ 100 2 1
 time set noon
-tp @s 0 1 -56
+tp 0 1 -56
 playsound entity.player.levelup player @s ~ ~ ~ 100 1 1
 effect give @s blindness 3 1 true

@@ -1,5 +1,5 @@
 time set midnight
-tp @s 0 1 -40
+tp 0 1 -40
 playsound entity.player.levelup player @s ~ ~ ~ 100 1 1
 effect give @s blindness 1 1 true
 tellraw @s [{"text":"Narrator: ","color":"gold"},{"text": "How about ranged combat?","color":"white"}]
