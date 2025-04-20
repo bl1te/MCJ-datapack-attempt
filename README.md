@@ -41,7 +41,7 @@ And no backporting, ever. This is the paradigm I follow:
 - `.../%your_mc_directory%/saves/Adventure-reset.bat`
 
 3. Start the game and load the _'Adventure'_ world. **_Do not touch the 'Adventure.bak' world!_**
-4. Run `/datapack list enabled` command to ensure that it is set properly.
+4. Run `/datapack list enabled` command to ensure that it was set properly.
 
 ## Restart the game
 
