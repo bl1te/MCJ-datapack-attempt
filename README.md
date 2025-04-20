@@ -21,7 +21,7 @@ Feel free to use any of the contents at your discretion. _Just credit me, okay?_
 
 While I enjoy messing with the code for fun, I'm not going to bother with multiplayer adjustments.
 
-And no backporting, ever. This is the paradigm I follow:
+And no backporting, ever. This is my principle:
 
 > If you are not utilizing the highest stable version, you are wasting opportunities, unless the highest stable version can not be received for free.
 >
