@@ -18,7 +18,9 @@ Feel free to use any of the contents at your discretion.
 <details>
 
 <summary>:warning: The datapack is created on and for Java Edition 1.21.5. I can not guarantee that it works on versions below 1.21.5. Also, single player only.</summary>
+
 ---
+
 While I enjoy messing with the code for fun, I'm not going to bother with multiplayer adjustments.
 
 And no backporting, ever. This is the paradigm I follow:
@@ -26,7 +28,9 @@ And no backporting, ever. This is the paradigm I follow:
 > If you are not utilizing the highest stable version, you are wasting opportunities.
 >
 > If the higher stable version lacks the features which are present in lower version, find a workaround to achieve these features.
+
 ---
+
 </details>
 
 1. Download the [MCJ.7z](https://github.com/bl1te/MCJ-datapack-attempt/raw/refs/heads/main/MCJ.7z) archive.
