@@ -29,9 +29,9 @@ And no backporting, ever. This is the paradigm I follow:
 >
 > If the higher stable version lacks the features which are present in lower version, find a workaround to achieve these features.
 
----
-
 </details>
+
+---
 
 1. Download the [MCJ.7z](https://github.com/bl1te/MCJ-datapack-attempt/raw/refs/heads/main/MCJ.7z) archive.
 2. Extract the contents into your _'saves'_ folder. **_Do not rename the folders! Otherwise edit the insides of _'Adventure-reset.bat'_ file too!_** It should look like this:
