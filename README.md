@@ -15,8 +15,6 @@ Feel free to use any of the contents at your discretion.
 
 ## Installation
 
----
-
 <details>
 
 <summary>:warning: The datapack is created on and for Java Edition 1.21.5. I can not guarantee that it works on versions below 1.21.5. Also, single player only.</summary>
