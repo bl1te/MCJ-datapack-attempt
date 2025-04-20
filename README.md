@@ -30,7 +30,7 @@ And no backporting, ever. This is my paradigm:
 </details>
 
 1. Download the _'MCJ.7z'_ archive from the [Releases](https://github.com/bl1te/MCJ-datapack-attempt/releases) page.
-2. Unpack the contents into your _'saves'_ folder. It should look like this:
+2. Unpack the contents into your _'saves'_ folder. **_Do not rename the folders! Otherwise edit the insides of _'Adventure-reset.bat'_ file too!_** It should look like this:
 
 - `.../%your_mc_directory%/saves/Adventure`
 
