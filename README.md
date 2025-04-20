@@ -23,9 +23,9 @@ While I enjoy messing with the code for fun, I'm not going to bother with multip
 
 And no backporting, ever. This is my principle:
 
-> If you are not utilizing the highest stable version, you are wasting opportunities, unless the highest stable version can not be received for free.
+> If you are not utilizing the highest stable version, you are wasting opportunities. Unless the highest stable version can not be received for free.
 >
-> If the highest stable version lacks the features which are present in lower version, find an alternative way to achieve these features.
+> If the highest stable version lacks the features which are present in lower version, find an alternative way to achieve those features or give them up. They are secondary. The core functionality is primary.
 
 </details>
 
