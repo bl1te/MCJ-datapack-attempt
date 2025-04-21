@@ -4,6 +4,7 @@ stopsound @s music
 tp 0 1 -146
 playsound entity.enderman.teleport player @s ~ ~ ~ 100 1 1
 effect clear
+effect give @s nausea 4 1 true
 
 playsound music.nether.nether_wastes music @s ~ ~ ~ 100 2 1
 

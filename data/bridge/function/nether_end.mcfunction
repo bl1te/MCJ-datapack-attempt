@@ -5,6 +5,7 @@ effect give @s night_vision infinite 0 true
 
 tp 0 1 -209
 playsound entity.enderman.teleport player @s ~ ~ ~ 100 1 1
+effect give @s nausea 4 1 true
 
 playsound entity.enderman.stare ambient @s ~ ~ ~ 100 1 1
 playsound music.end music @s ~ ~ ~ 100 2 1

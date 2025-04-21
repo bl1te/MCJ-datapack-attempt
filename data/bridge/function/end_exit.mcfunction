@@ -1,7 +1,7 @@
 stopsound @s ambient entity.enderman.stare
 stopsound @s music
 
-tp 0 1 -225
+tp 0 1 -226
 playsound entity.player.levelup player @s ~ ~ ~ 100 1 1
 effect clear
 

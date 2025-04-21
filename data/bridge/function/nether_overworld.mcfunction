@@ -2,6 +2,7 @@ stopsound @s music
 
 tp 0 1 -70
 playsound entity.enderman.teleport player @s ~ ~ ~ 100 1 1
+effect give @s nausea 4 1 true
 
 playsound music.game music @s ~ ~ ~ 100 2 1
 
