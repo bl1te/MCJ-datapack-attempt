@@ -9,7 +9,7 @@ A lot of code may be unoptimized, this is the second reason of publishing the pa
 
 Currently there is only a demo version. I hope people will see it, contribute (with explanations), and help me improve my skills and the datapack.
 
-:pushpin: **And I mean it. I'd like to hear any feedback on any aspect of this world/datapack: source code architecture/structure, entities naming, commands optimization... heck, even placement of the blocks. Anything.**
+:pushpin: **And I mean it. I'd like to hear any feedback on any aspect of this world/datapack: source code architecture/structure, entities naming, commands optimization... heck, even colors or placement of the blocks. Anything.**
 
 Feel free to use any of the contents at your discretion. _Just credit me, okay?_
 
