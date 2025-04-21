@@ -1,10 +1,12 @@
 stopsound @s ambient entity.enderman.stare
 stopsound @s music
 
+# To reapply nausea
+effect clear
 tp 0 1 -146
 playsound entity.enderman.teleport player @s ~ ~ ~ 100 1 1
 effect clear
-effect give @s nausea 4 1 true
+effect give @s nausea 5 1 true
 
 playsound music.nether.nether_wastes music @s ~ ~ ~ 100 2 1
 
