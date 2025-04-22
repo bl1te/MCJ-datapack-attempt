@@ -11,3 +11,4 @@ time set noon
 tp 0 1 -56
 playsound entity.player.levelup player @s ~ ~ ~ 100 1 1
 effect give @s blindness 2 1 true
+scoreboard players set @s training_finished 1

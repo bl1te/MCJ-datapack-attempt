@@ -1,14 +1,11 @@
 stopsound @s ambient entity.enderman.stare
 stopsound @s music
 
-# To reapply nausea
-effect clear
 tp 0 1 -146
 playsound entity.enderman.teleport player @s ~ ~ ~ 100 1 1
 effect clear
-effect give @s nausea 5 1 true
 
 playsound music.nether.nether_wastes music @s ~ ~ ~ 100 2 1
 
 # Set the teleport flag to avoid getting stuck in tp loop:
-scoreboard players set @s tp_status 1
+scoreboard players set @s bridge_tp_status 1
