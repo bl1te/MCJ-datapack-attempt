@@ -1,3 +1,3 @@
 {
-  "values": ["common:init"]
+  "values": ["common:init", "conversation_engine:init"]
 }

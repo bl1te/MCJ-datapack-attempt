@@ -1,7 +1,8 @@
 clear @s bow
 clear @s arrow
 
-tellraw @s [{"text":"Narrator: ","color":"gold"},{"text":"The ","color":"white"},{"text":"real","color":"gold"},{"text":" game is starting...","color":"white"}]
+tellraw @s[tag=en] [{"text":"Narrator: ","color":"gold"},{"text":"The ","color":"white"},{"text":"real ","color":"gold"},{"text":"game is starting soon.","color":"white"}]
+tellraw @s[tag=ru] [{"text":"Рассказчик: ","color":"gold"},{"text":"Настоящая ","color":"gold"},{"text":"игра скоро начнётся.","color":"white"}]
 effect give @s regeneration 1 255 true
 effect give @s saturation 1 10 true
 
