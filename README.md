@@ -11,8 +11,6 @@ Currently there is only a demo version. I hope people will see it, contribute (w
 
 :pushpin: **And I mean it. I'd like to hear any feedback on any aspect of this world/datapack: source code architecture/structure, entities naming, commands optimization... heck, even colors or placement of the blocks. Anything.**
 
-Feel free to use any of the contents at your discretion. _Just credit me, okay?_
-
 ## Installation
 
 <details>
