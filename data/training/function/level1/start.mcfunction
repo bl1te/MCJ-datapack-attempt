@@ -8,5 +8,8 @@ playsound entity.enderman.teleport player @a ~ ~ ~ 100 1 1
 tellraw @a[tag=en] [{"text":"Narrator: ","color":"gold"},{"text":"Warming up. Show off your melee skills.","color":"white"}]
 tellraw @a[tag=ru] [{"text":"Рассказчик: ","color":"gold"},{"text":"Разомнёмся. Продемонстрируй свои навыки ближнего боя.","color":"white"}]
 
+tellraw @a[tag=en] [{"text":"Narrator: ","color":"gold"},{"text": "Play around, there are additional options behind you.","color":"white"}]
+tellraw @a[tag=ru] [{"text":"Рассказчик: ","color":"gold"},{"text": "Поиграйся, есть дополнительные опции сзади тебя.","color":"white"}]
+
 tellraw @a[tag=en] [{"text":"Narrator: ","color":"gold"},{"text": "Once done, press the button.","color":"white"}]
 tellraw @a[tag=ru] [{"text":"Рассказчик: ","color":"gold"},{"text": "Когда закончишь, можешь нажать кнопку.","color":"white"}]
