@@ -10,3 +10,4 @@ playsound music.game music @s ~ ~ ~ 100 1 1
 tellraw @s[tag=en] {"text": "To be continued...", "color": "gold"}
 tellraw @s[tag=ru] {"text": "Продолжение следует...", "color": "gold"}
 scoreboard players set @s bridge_finished 1
+function act1:start
