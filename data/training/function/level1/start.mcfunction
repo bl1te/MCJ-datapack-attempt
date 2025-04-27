@@ -2,7 +2,7 @@
 playsound music.menu music @a ~ ~ ~ 100 1 1
 effect give @a blindness 4 1 true
 time set midnight
-summon zombie 0 1 -15 {IsBaby:0b}
+summon zombie 0 1 -15 {IsBaby:0b,Tags:["training_melee"]}
 tp @a 0 1 -5
 playsound entity.enderman.teleport player @a ~ ~ ~ 100 1 1
 tellraw @a[tag=en] [{"text":"Narrator: ","color":"gold"},{"text":"Warming up. Show off your melee skills.","color":"white"}]

@@ -1,7 +1,9 @@
 # This function is run by moving through the exit door in Training Room 1
 
-# If zombie was not killed:
-execute as @a if entity @e[x=0,y=1,z=-15,dx=0,dy=0,dz=0,type=zombie] run function training:level1/kill_zombie
+# If zombie was not killed by the player:
+execute if entity @e[type=zombie,tag=training_melee] run tellraw @s[tag=en] [{"text":"Narrator: ","color":"gold"},{"text":"Okay \u2639","color":"white"}]
+execute if entity @e[type=zombie,tag=training_melee] run tellraw @s[tag=ru] [{"text":"Рассказчик: ","color":"gold"},{"text":"Ладно \u2639","color":"white"}]
+kill @e[type=zombie,tag=training_melee]
 
 time set noon
 tp 0 1 -22
