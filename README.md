@@ -27,7 +27,7 @@ And no backporting, ever. This is my principle:
 
 ---
 
-1. Download [MCJ-with-reset-bat.zip](https://github.com/bl1te/MCJ-datapack-attempt/raw/refs/heads/main/MCJ-with-reset-bat.zip).
+1. Download [MCJ-with-reset-bat.zip](https://github.com/bl1te/Most-Common-Journey/raw/refs/heads/main/MCJ-with-reset-bat.zip).
 2. Extract the contents into your _'saves'_ folder. **_Do not move and do not rename it! Otherwise edit the insides of _'MCJ-reset.bat'_ file!_** It should look like this:
 
 - `.../%your_mc_directory%/saves/Most Common Journey`
