@@ -1,9 +1,9 @@
-stopsound @s music
+stopsound @a music
 
-tp 0 1 -132
-playsound entity.enderman.teleport player @s ~ ~ ~ 100 1 1
+tp @a 0 1 -132
+playsound entity.enderman.teleport player @a ~ ~ ~ 100 1 1
 
-playsound music.nether.nether_wastes music @s ~ ~ ~ 100 2 1
+playsound music.nether.nether_wastes music @a ~ ~ ~ 100 2 1
 
 # Set the teleport flag to avoid getting stuck in tp loop:
-scoreboard players set @s bridge_tp_status 1
+scoreboard players set @a bridge_tp_status 1

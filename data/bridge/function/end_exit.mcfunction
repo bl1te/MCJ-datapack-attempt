@@ -1,13 +1,13 @@
-stopsound @s ambient entity.enderman.stare
-stopsound @s music
+stopsound @a ambient entity.enderman.stare
+stopsound @a music
 
-tp 0 1 -226
-playsound entity.player.levelup player @s ~ ~ ~ 100 1 1
+tp @a 0 1 -226
+playsound entity.player.levelup player @a ~ ~ ~ 100 1 1
 effect clear
 
-playsound music.game music @s ~ ~ ~ 100 1 1
+playsound music.game music @a ~ ~ ~ 100 1 1
 
-tellraw @s[tag=en] {"text": "To be continued...", "color": "gold"}
-tellraw @s[tag=ru] {"text": "Продолжение следует...", "color": "gold"}
-scoreboard players set @s bridge_finished 1
+tellraw @a[tag=en] {"text": "To be continued...", "color": "gold"}
+tellraw @a[tag=ru] {"text": "Продолжение следует...", "color": "gold"}
+scoreboard players set @a bridge_finished 1
 function act1:start
