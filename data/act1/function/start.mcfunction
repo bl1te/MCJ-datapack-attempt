@@ -10,5 +10,5 @@ scoreboard players set $Emeralds Info 15
 execute if entity @a[tag=en] run scoreboard players display name $Emeralds Info "Emeralds: 0"
 execute if entity @a[tag=ru] run scoreboard players display name $Emeralds Info "Изумруды: 0"
 
-title @a[tag=en] title {text:"Act 1: Home, sweet home.",color:"gold"}
+title @a[tag=en] title {text:"Act 1: Home Sweet Home.",color:"gold"}
 title @a[tag=ru] title {text:"Акт 1: Дом, милый дом.",color:"gold"}
