@@ -12,3 +12,6 @@ execute if entity @a[tag=ru] run scoreboard players display name $Emeralds Info 
 
 title @a[tag=en] title {text:"Act 1: Home Sweet Home.",color:"gold"}
 title @a[tag=ru] title {text:"Акт 1: Дом, милый дом.",color:"gold"}
+
+scoreboard objectives add north_gate_opened dummy
+scoreboard players set @a north_gate_opened 1
