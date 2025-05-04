@@ -1,10 +1,9 @@
 clear @a bow
 clear @a arrow
+clear @a minecart
 
 tellraw @a[tag=en] [{"text":"Narrator: ","color":"gold"},{"text":"The ","color":"white"},{"text":"real ","color":"gold"},{"text":"game is starting soon.","color":"white"}]
 tellraw @a[tag=ru] [{"text":"Рассказчик: ","color":"gold"},{"text":"Настоящая ","color":"gold"},{"text":"игра скоро начнётся.","color":"white"}]
-effect give @a regeneration 1 255 true
-effect give @a saturation 1 10 true
 
 stopsound @a music
 playsound music.game music @a ~ ~ ~ 100 2 1

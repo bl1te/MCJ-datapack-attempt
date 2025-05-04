@@ -21,5 +21,19 @@ tellraw @a[tag=ru] [{"text":"Система: ","color":"dark_purple"},{"text": "
 scoreboard objectives add act1_finished dummy
 scoreboard players set @a act1_finished 0
 
+execute if entity @a[tag=en] run scoreboard objectives add Info dummy "Info"
+execute if entity @a[tag=ru] run scoreboard objectives add Info dummy "Инфо"
+scoreboard objectives modify Info numberformat blank
+
+team add Emeralds
+team modify Emeralds color green
+team join Emeralds $Emeralds
+scoreboard players set $Emeralds Info 15
+execute if entity @a[tag=en] run scoreboard players display name $Emeralds Info "Emeralds: 0"
+execute if entity @a[tag=ru] run scoreboard players display name $Emeralds Info "Изумруды: 0"
+
+scoreboard objectives add north_gate_opened dummy
+scoreboard players set @a north_gate_opened 1
+
 tellraw @a[tag=en] [{"text":"System: ","color":"dark_purple"},{"text": "[3/3] Act 1 module: ","color": "white"},{"text":"WIP","color":"gold"},{"text":".","color": "white"}]
 tellraw @a[tag=ru] [{"text":"Система: ","color":"dark_purple"},{"text": "[3/3] Модуль Акта 1: ","color": "white"},{"text":"В работе","color":"gold"},{"text":".","color": "white"}]

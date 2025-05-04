@@ -4,6 +4,8 @@ stopsound @a music
 tp @a 0 1 -146
 playsound entity.enderman.teleport player @a ~ ~ ~ 100 1 1
 effect clear
+effect give @a regeneration infinite 255 true
+effect give @a saturation infinite 10 true
 
 playsound music.nether.nether_wastes music @a ~ ~ ~ 100 2 1
 

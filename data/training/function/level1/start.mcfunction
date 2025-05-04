@@ -1,6 +1,8 @@
 # This function is run after pressing the button at the very beggining (0 0 0)
 playsound music.menu music @a ~ ~ ~ 100 1 1
 effect give @a blindness 4 1 true
+effect give @a regeneration infinite 255 true
+effect give @a saturation infinite 10 true
 
 setblock 2 3 -5 air replace
 execute if entity @a[tag=en] run setblock 2 3 -5 pale_oak_wall_sign{front_text:{has_glowing_text:1b,color:"cyan",messages:["","Reset","",""]}} replace
