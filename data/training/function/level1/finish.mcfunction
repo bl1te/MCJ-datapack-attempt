@@ -6,7 +6,7 @@ execute if entity @e[tag=training] run tellraw @a[tag=ru] [{"text":"Расска
 kill @e[tag=training]
 
 time set noon
-tp 0 1 -22
+tp @a 0 1 -22
 playsound entity.player.levelup player @a ~ ~ ~ 100 1 1
 effect give @a blindness 1 1 true
 clear @a wooden_sword

@@ -9,7 +9,7 @@ effect give @a saturation 1 10 true
 stopsound @a music
 playsound music.game music @a ~ ~ ~ 100 2 1
 time set noon
-tp 0 1 -56
+tp @a 0 1 -56
 playsound entity.player.levelup player @a ~ ~ ~ 100 1 1
 effect give @a blindness 2 1 true
 scoreboard players set @a training_finished 1
