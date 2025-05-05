@@ -7,7 +7,7 @@ kill @e[tag=training]
 
 time set noon
 tp @a 0 1 -22
-playsound entity.player.levelup player @a ~ ~ ~ 100 1 1
-effect give @a blindness 1 1 true
-clear @a iron_sword
+playsound minecraft:entity.player.levelup player @a ~ ~ ~ 100 1 1
+effect give @a minecraft:blindness 1 1 true
+clear @a minecraft:iron_sword
 schedule function training:level2/start 1s
