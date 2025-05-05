@@ -3,7 +3,7 @@ stopsound @a music
 
 tp @a 0 1 -146
 playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 100 1 1
-effect clear
+effect clear @a
 effect give @a minecraft:regeneration infinite 255 true
 effect give @a minecraft:saturation infinite 10 true
 
