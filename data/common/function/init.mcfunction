@@ -23,14 +23,10 @@ scoreboard players set @a act1_finished 0
 
 execute if entity @a[tag=en] run scoreboard objectives add Info dummy "Info"
 execute if entity @a[tag=ru] run scoreboard objectives add Info dummy "Инфо"
-scoreboard objectives modify Info numberformat blank
 
-team add Emeralds
-team modify Emeralds color green
-team join Emeralds $Emeralds
-scoreboard players set $Emeralds Info 15
-execute if entity @a[tag=en] run scoreboard players display name $Emeralds Info "Emeralds: 0"
-execute if entity @a[tag=ru] run scoreboard players display name $Emeralds Info "Изумруды: 0"
+scoreboard players set $Emeralds Info 0
+execute if entity @a[tag=en] run scoreboard players display name $Emeralds Info "Emeralds:"
+execute if entity @a[tag=ru] run scoreboard players display name $Emeralds Info "Изумруды:"
 
 scoreboard objectives add north_gate_opened dummy
 scoreboard players set @a north_gate_opened 1
