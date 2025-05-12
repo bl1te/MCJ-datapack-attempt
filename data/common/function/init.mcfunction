@@ -18,15 +18,18 @@ scoreboard players set @a bridge_tp_status 0
 tellraw @a[tag=en] [{"text":"System: ","color":"dark_purple"},{"text": "[2/3] Bridge module: ","color": "white"},{"text":"Success","color":"green"},{"text":".","color": "white"}]
 tellraw @a[tag=ru] [{"text":"Система: ","color":"dark_purple"},{"text": "[2/3] Модуль моста: ","color": "white"},{"text":"Успех","color":"green"},{"text":".","color": "white"}]
 
-scoreboard objectives add act1_finished dummy
-scoreboard players set @a act1_finished 0
-
 execute if entity @a[tag=en] run scoreboard objectives add Info dummy "Info"
 execute if entity @a[tag=ru] run scoreboard objectives add Info dummy "Инфо"
 
-scoreboard players set $Emeralds Info 0
+team add Emeralds
+team modify Emeralds color green
+team join Emeralds $Emeralds
 execute if entity @a[tag=en] run scoreboard players display name $Emeralds Info "Emeralds:"
 execute if entity @a[tag=ru] run scoreboard players display name $Emeralds Info "Изумруды:"
+scoreboard players set $Emeralds Info 0
+
+scoreboard objectives add act1_finished dummy
+scoreboard players set @a act1_finished 0
 
 scoreboard objectives add north_gate_opened dummy
 scoreboard players set @a north_gate_opened 1
