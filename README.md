@@ -13,19 +13,7 @@ Currently there is only a demo version. I hope people will see it, contribute (w
 
 ## Installation
 
-<details>
-
-<summary>:warning: The datapack is created on and for Java Edition 1.21.5. I can not guarantee that it works on versions different from 1.21.5. Also, singleplayer only...</summary>
-
-While I enjoy messing with the code for fun, I'm not going to bother with multiplayer adjustments.
-
-And no backporting, ever. This is my principle:
-
-> If you're not using the highest stable version, you're missing opportunities - unless it comes with unjustifiable costs. If it lacks features from a lower version, either find an alternative solution or accept the trade-off. Core functionality is primary; features are secondary.
-
-</details>
-
----
+:warning: The datapack is created on and for Java Edition 1.21.5. I can not guarantee that it works on versions different from 1.21.5. Also, singleplayer only.
 
 1. Download [MCJ-with-reset-bat.zip](https://github.com/bl1te/Most-Common-Journey/raw/refs/heads/main/MCJ-with-reset-bat.zip).
 2. Extract the contents into your _'saves'_ folder. **_Do not move and do not rename it! Otherwise edit the insides of _'MCJ-reset.bat'_ file!_** It should look like this:
