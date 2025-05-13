@@ -8,4 +8,3 @@ setblock 4 3 -1044 minecraft:oak_planks replace
 setblock 5 1 -1044 minecraft:oak_planks replace
 
 # fill 2 5 -1054 2 6 -1054 minecraft:air
-#
