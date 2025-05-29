@@ -8,6 +8,19 @@ title @a[tag=ru] title {text:"Акт 1: Дом, милый дом",color:"gold"}
 effect give @a minecraft:regeneration 1 255 true
 effect give @a minecraft:saturation 1 10 true
 
+# execute if entity @a[tag=en] run setblock 19 4 -968 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","Cherry","",""]}} replace
+# execute if entity @a[tag=en] run setblock 19 4 -967 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","Garden","",""]}} replace
+# execute if entity @a[tag=ru] run setblock 19 4 -968 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","Вишнёвый","",""]}} replace
+# execute if entity @a[tag=ru] run setblock 19 4 -967 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","сад","",""]}} replace
+
+# execute if entity @a[tag=en] run setblock 19 4 -940 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","Cherry","",""]}} replace
+# execute if entity @a[tag=en] run setblock 19 4 -939 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","Garden","",""]}} replace
+# execute if entity @a[tag=ru] run setblock 19 4 -940 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","Вишнёвый","",""]}} replace
+# execute if entity @a[tag=ru] run setblock 19 4 -939 minecraft:cherry_wall_sign[facing=west]{front_text:{messages:["","сад","",""]}} replace
+
+# execute if entity @a[tag=en] run setblock 73 5 -968 minecraft:cherry_wall_sign[facing=east]{front_text:{messages:["","Cherry","Garden",""]}} replace
+# execute if entity @a[tag=ru] run setblock 73 5 -968 minecraft:cherry_wall_sign[facing=east]{front_text:{messages:["","Вишнёвый","сад",""]}} replace
+
 # execute if entity @a[tag=en] run setblock 75 3 -1058 minecraft:pale_oak_wall_sign[facing=south]{front_text:{messages:["","Restricted","Area",""]}} replace
 # execute if entity @a[tag=ru] run setblock 75 3 -1058 minecraft:pale_oak_wall_sign[facing=south]{front_text:{messages:["","Запретная","зона",""]}} replace
 
